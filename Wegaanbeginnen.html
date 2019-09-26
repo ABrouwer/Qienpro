@@ -1,1 +1,26 @@
-Welkom allemaal!
+
+<html>
+    
+    <script>
+
+        function optellen (iets, nogiets) {
+            var iets = document.getElementById("een").value;
+            var nogiets = document.getElementById("twee").value;
+    	    var uitkomst = (parseInt(iets) + parseInt (nogiets));
+            document.getElementById("result").value = uitkomst
+
+        }   
+
+    </script>
+    <body>
+        <textarea id=een></textarea>
+        <textarea id=twee></textarea>
+        <br>
+        <button onclick=optellen()>submit</button>
+        <br>
+        <br>
+        <textarea id=result></textarea>
+    </body>
+
+</html>
+
